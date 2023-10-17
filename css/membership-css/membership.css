@@ -8,7 +8,6 @@
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    margin-top: 100px;
     background: url(../../images/membership-img/gym-membership.jpeg);
     height: 400px;
     width:100%;
@@ -50,7 +49,7 @@
     padding: 5px;
 }
 .membership-card{
-    background-color: #1d1d1d;
+    background-color: #1d1d1d;  
     width: 500px;
     padding: 40px 20px;
     margin: 20px;
