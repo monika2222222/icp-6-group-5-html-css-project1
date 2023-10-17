@@ -1,5 +1,5 @@
 .navbar{
-    background-color:#fff;
+    background-color:#1d1d1d;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -16,6 +16,7 @@
     margin-left: 200px;
     margin-top: 10px;
     width: 70px;
+    background-color: #fff;
 
 }
 
@@ -28,14 +29,14 @@
     border-radius: 20px;
     padding: 5px;
     margin-left: 30px;
-    color: black;
+    color:#fff;
 
 }
 .navbar-menu:hover{
-    padding: 8px;
+    padding: 5px;
     background-color:#3273d0;
     box-shadow: 0 0 5px 2px gray;
-    color: #fff;
+    color: #000;
     border-radius: 20px 0 20px 0;
     transition: 0.3s;
 }
@@ -45,7 +46,7 @@
 
 }
 .footer-container{
-    background-color: #fff;
+    background-color: #1d1d1d;
     width: 100%;
     padding: 50px;
     margin-top: 60px;
@@ -64,37 +65,17 @@
 }
 .ph-no{
     font-weight: bold;
+    color: #fff;
 
 }
 .email{
     margin-top: -30px;
+
 }
 .footer-child{
     margin-top: 40px;
+    color: #fff;
 }
-.bottom{
-background-color: #fff ;
-}
-.btn{
-    height: 40px;
-    width: 80px;
-    border-radius: 7px;
-    padding: 5px;
-    background-color:tomato;
-    color:#fff;
-    margin-left: 20px;
-    margin-top: 50px;
-    cursor: pointer;
-    }     
-       .btn:hover{
-        padding: 10px;
-        width: 85px;
-        height: 42px;
-        box-shadow: 0 0 5px black;
-        transition: 0.5s;
-    
-       }
-       .btn-con{
-        display: flex;
-       }
-       
+
+   
+      
