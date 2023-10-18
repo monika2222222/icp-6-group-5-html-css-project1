@@ -1,0 +1,106 @@
+.navbar{
+    background-color:#1d1d1d;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 105%;    
+    left: 0%;      
+    margin-top: -20px;
+    margin-bottom: 0%;
+    margin-left: -20px;
+    margin-right: -50px;
+}
+.navbar-icon{
+    height: 70px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 70px;
+    background-color: #fff;
+
+}
+
+.navbar-menu{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 300px;
+    cursor: pointer;
+   margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    color:#fff;
+
+}
+.navbar-menu:hover{
+    padding: 5px;
+    background-color:#3273d0;
+    box-shadow: 0 0 5px 2px gray;
+    color: #000;
+    border-radius: 20px 0 20px 0;
+    transition: 0.3s;
+}
+.navbar-menu-container{
+    margin-left:  200px; 
+    margin-right: 0%;
+
+}
+.footer-container{
+    background-color: #1d1d1d;
+    width: 100%;
+    padding: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-around;
+    height: 250px;
+   
+
+}
+.footer-img{
+    width: 30px;
+    margin-top: 50px;
+   cursor: pointer;
+}
+.ph-no{
+    font-weight: bold;
+    color: #fff;
+
+}
+.email{
+    margin-top: -30px;
+
+}
+.footer-child{
+    margin-top: 40px;
+    color: #fff;
+}
+.btn2{
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color:tomato;
+    color:#fff;
+    margin-left: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    }     
+       .btn2:hover{
+        padding: 10px;
+        width: 85px;
+        height: 42px;
+        box-shadow: 0 0 5px black;
+        transition: 0.5s;
+    
+       }
+       .btn3{
+        background-color: #d0c5c5;
+        color:black;
+        border:1px solid black;
+        
+       }
+
+   
+      
