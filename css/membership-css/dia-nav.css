@@ -76,6 +76,31 @@
     margin-top: 40px;
     color: #fff;
 }
+.btn2{
+    height: 40px;
+    width: 80px;
+    border-radius: 7px;
+    padding: 5px;
+    background-color:tomato;
+    color:#fff;
+    margin-left: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+    }     
+       .btn2:hover{
+        padding: 10px;
+        width: 85px;
+        height: 42px;
+        box-shadow: 0 0 5px black;
+        transition: 0.5s;
+    
+       }
+       .btn3{
+        background-color: #d0c5c5;
+        color:black;
+        border:1px solid black;
+        
+       }
 
    
       

@@ -44,6 +44,7 @@
     margin-right: 0%;
 
 }
+
 .footer-container{
     background-color: #fff;
     width: 100%;
@@ -96,6 +97,11 @@ background-color: #fff ;
        }
        .btn-con{
         display: flex;
+       }
+       .btn2{
+        background-color: #1d1d1d;
+        color: #fff;
+        border:1px solid black;
        }
        @media only screen and(max-width:600px){
         .navbar{
