@@ -48,7 +48,8 @@ body {
 }
 
 .img-card-container {
-    margin-left: 57px;
+    margin-left:152px; 
+    margin-right: 
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
@@ -59,12 +60,5 @@ font-size: 50px;
 text-align: center;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@media screen and(max-width: 500px){
-    .img {
-    height: 10px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
-}
-}
+
+
