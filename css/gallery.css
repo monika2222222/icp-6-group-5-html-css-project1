@@ -20,7 +20,7 @@ position: relative;
 .user-profile-picture{
 
 display: block;
-width: 170px;
+width: 100%;
 
 }
 .user-card:hover{
