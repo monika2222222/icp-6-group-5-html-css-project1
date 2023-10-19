@@ -55,7 +55,7 @@
     
     justify-content:space-around;
     height: 250px;
-   
+   margin-bottom: -100px;
 
 }
 .footer-img{
@@ -208,82 +208,4 @@ background-color: #fff ;
                }
 
        }
-       @media only screen and(min-width:601px)and(max-width:800px){
-        
-            .navbar{
-                background-color:#fff;
-                display: flex;
-               
-                flex-wrap: wrap;
-                width: 100%;    
-                left: 0%;      
-                margin-top: -20px;
-                margin-bottom: -20px;
-                margin-right: -20px;
-                justify-content: center;
-                
-            }
-            .navbar-icon{
-                height: 60px;
-                margin-top: 10px;
-                width: 70px;
-            
-            }
-            
-            .navbar-menu{
-                font-size: 20px;
-                font-weight: bold;
-                margin-left: 200px;
-                cursor: pointer;
-               margin-bottom: 30px;
-                border-radius: 20px;
-                
-                margin-left: 30px;
-                color: black;
-            
-            }
-            .navbar-menu:hover{
-                padding: 8px;
-                background-color:#3273d0;
-                box-shadow: 0 0 5px 2px gray;
-                color: #fff;
-                border-radius: 20px 0 20px 0;
-                transition: 0.3s;
-            }
-            .navbar-menu-container{
-                margin-left: 0%; 
-                margin-right: 0%;
-            
-            }
-            .footer-container{
-                background-color: #fff;
-                width: 100%;
-                margin-top: 20px;
-                display: flex;
-                flex-wrap: wrap;       
-              justify-content: center;
-               margin-bottom: -50px;
-               margin-left: auto;
-               margin-right: auto;
-               
-            
-            }
-            .footer-img{
-                width: 20px;
-                margin-top: 30px;
-               cursor: pointer;
-            }
-            .ph-no{
-                font-weight: bold;
-            
-            }
-            .email{
-         margin-top: -30px;
-            }
-            .footer-child{
-                
-                margin-left: 0%;
-            }
-          
-       }
-       
+      

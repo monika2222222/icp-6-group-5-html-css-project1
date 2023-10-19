@@ -85,8 +85,6 @@ body{
    border: 2px solid rgb(250, 247, 247);
    border-radius: 10px;
    padding: 0;
-   
-  
 }
 .img-2{
     height: 40%;
@@ -94,7 +92,7 @@ body{
     border-radius: 10px;
 }
 .flex-btn{
-    background-color: black;
+    background-color:#1d1d1d;
     color:aqua;
     margin-top: 15px;
    align-items: center;
@@ -135,57 +133,80 @@ body{
     padding: 10px;
  }
  .navbar{
-background-color:black;
-display: flex;
-align-items: center;
-flex-wrap: wrap;
-width: 100%;    
-margin-bottom: 20px;
-margin-top: -20px;
-
-
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 105%;    
+    left: 0%;      
+    margin-bottom: 0%;
+    margin-left: -20px;
+    margin-right: -50px;
+    height: 100px;
+    margin-top: -70px;
 }
 .navbar-icon{
-height: 90px;
-padding: 10px;
-margin-left: 20px;
-width: 110px;
-background-color: #fff;
+    height: 100px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 110px;
 
 }
 
 .navbar-menu{
-font-size: 20px;
-font-weight: bold;
-margin-left: 300px;
-cursor: pointer;
-margin-bottom: 30px;
-border-radius: 20px;
-padding: 5px;
-margin-left: 30px;
-color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 300px;
+    cursor: pointer;
+   margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    color: black;
 
 }
 .navbar-menu:hover{
-padding: 5px;
-background-color:#3273d0;
-box-shadow: 0 0 5px 2px gray;
-color: #000;
-border-radius: 20px 0 20px 0;
-transition: 0.3s;
+    padding: 8px;
+    background-color:#3273d0;
+    box-shadow: 0 0 5px 2px gray;
+    color: #fff;
+    border-radius: 20px 0 20px 0;
+    transition: 0.3s;
 }
 .navbar-menu-container{
-margin-left:  200px; 
-margin-right: 0%;
+    margin-left:  200px; 
+    margin-right: 0%;
 
 }
-.btn-con{
-display: flex;
-flex-wrap: wrap;
+.footer-container{
+    background-color: #fff;
+    width: 100%;
+    padding: 50px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-around;
+    height: 250px;
+   
 
 }
-.btn2{
-background-color: tomato;
-color: #fff;
-margin-bottom: -10px;
+.footer-img{
+    width: 30px;
+    margin-top: 50px;
+   cursor: pointer;
+}
+.ph-no{
+    font-weight: bold;
+    color: #000;
+
+}
+.email{
+    margin-top: -30px;
+    color: #000;
+}
+.footer-child{
+    margin-top: 40px;
+    color: #000;
 }
