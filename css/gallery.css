@@ -1,0 +1,145 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #202124;
+    
+}
+.user-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.user-card{
+background-color: bisque;
+width: 405px;
+margin: 200px;
+padding: 20px;
+border-radius: 10px ;
+position: relative;
+}
+.user-profile-picture{
+
+display: block;
+width: 170px;
+
+}
+.user-card:hover{
+    background-color:gray ;
+    box-shadow: 0 0 5px 2px 2px navajowhite;
+    border-radius: 15px;
+    transition: 0.3s;
+    
+}
+.user-profile-picture:hover{
+            background-color:bisque ;
+            box-shadow: 0 0 5px 2px #fff;
+            padding: 5px 7px;
+            transition: 0.5s;
+            border-radius: 15px;
+}
+
+.user-name{
+    color:black;
+    font-size: 17px;
+    margin-top:px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-style:var(#fff)
+    
+} 
+.navbar{
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 110%;    
+    left: 0%;      
+    margin-top: -20px;
+    margin-bottom: 0%;
+    margin-left: -20px;
+    margin-right: -50px;
+}
+.navbar-icon{
+    height: 70px;
+    padding: 20px;
+    margin-left: 200px;
+    margin-top: 10px;
+    width: 70px;
+
+}
+
+.navbar-menu{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 300px;
+    cursor: pointer;
+   margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 30px;
+    color: black;
+
+}
+.navbar-menu:hover{
+    background-color:#3273d0;
+    box-shadow: 0 0 5px 2px gray;
+    color:black;
+    border-radius: 20px 0 20px 0;
+    transition: 0.3s;
+}
+.navbar-menu-container{
+    margin-left:  200px; 
+
+}
+.footer-container{
+    background-color: #fff;
+    width: 100%;
+  
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content:space-around;
+    height: 250px;
+   
+
+}
+.footer-img{
+    width: 30px;
+    margin-top: 50px;
+   
+}
+.ph-no{
+    font-weight: bold;
+
+}
+.email{
+    margin-top: -30px;
+}
+.footer-child{
+    margin-top: 40px;
+}
+.bottom{
+background-color: #fff ;
+}
+@media screen and (min-width:500px)and (max-width:768px){
+ }
+ body{
+    background-color: black;
+ }
+ .user-container{
+ padding: 0;
+ 
+
+ }
+ .user-card{
+    width: 400;
+    margin: 10px;
+    padding: 10px;
+    background-color: bisque;
+ }
+.user-profile-picture{
+    height: 470px;
+    width: 400px;
+
+}
