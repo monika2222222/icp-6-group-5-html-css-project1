@@ -49,9 +49,10 @@ body {
 
 .img-card-container {
     margin-left:152px; 
-    margin-right: 
+   
     margin-top: 40px;
     display: flex;
+   
     flex-wrap: wrap;
 }
 .dynamic-moment-taining-header{
